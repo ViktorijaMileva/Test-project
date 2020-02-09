@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    background-color: #111111;
+
+}
+header{
+    background-color: #000;
+    border: 1 px solid white;
+}
+.menu ul{
+    margin-left: 10%;
+}
+.menu ul li{
+    display: inline-flex;
+    width: 10%;
+    list-style: none;
+    border: 1px solid white;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #999999;
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+.fa{
+    color: #999999;
+}
