@@ -1,0 +1,43 @@
+
+body{
+    font-family: sans-serif;
+    background-color: #19a2ff;
+}
+.header{
+    color:#ffc000;
+    margin-left: 20%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main{
+    border: 4px dashed #db210b;
+    background-color: #2cb300;
+    width: 50%;
+    margin-left: 20%;
+}
+.main p{
+    color: #ffff00;
+    font-size: 20px;
+    padding: 5px;
+}
+.main img{
+    float: left;
+    width: 100px;
+    padding: 5px;
+    height: 100px;
+}
+.under-main{
+    border: 4px dashed #db210b;
+    background-color: #2cb300;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.under-main p{
+    color: #ffff00;
+    font-size: 20px;
+    padding: 5px;
+}
