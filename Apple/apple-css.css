@@ -1,20 +1,23 @@
 *{
     font-family: sans-serif;
-    background-color: #111111;
-
 }
 header{
-    background-color: #000;
+    width: 100%;
     border: 1 px solid white;
+    background-color: #000;
+    height: 7%;
+    line-height: 45px;
+}
+body{
+    background-color: #111111;
 }
 .menu ul{
     margin-left: 10%;
 }
 .menu ul li{
-    display: inline-flex;
+    display: inline-flex; 
     width: 10%;
     list-style: none;
-    border: 1px solid white;
 }
 .menu ul li a{
     text-decoration: none;
@@ -25,4 +28,49 @@ header{
 }
 .fa{
     color: #999999;
+}
+.iphone{
+    color: #fff;
+    margin-left: 13%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.iphone h3{
+    font-weight: lighter;
+    width: 60%;
+
+}
+.iphone p{
+    width: 8%;
+    color: #999999;
+}
+.iphone .button-1{
+    width: 8%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+.iphone .button-2{
+    width: 8%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+.iphone .button-2:hover{
+    color: #0071e3;
+}
+.image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 50%;
+}
+
+@media(max-width:800px){
+    .menu, .iphone, .image{
+        width: 100%;
+    }
 }
