@@ -384,3 +384,74 @@ body{
     text-align: center;
     margin-top: 150px;
 }
+.all-prom{
+    display: flex;
+    margin-left: 50px;
+}
+.promotions-1{
+    flex: 1;
+}
+.promotions-2{
+    flex: 1;
+}
+.promotions-3{
+    flex: 1;
+}
+.all-prom h3,
+.all-prom p,
+.all-prom a{
+    margin-left: 10px;
+}
+.all-prom a{
+    text-decoration: none;
+    color: #db002e;    
+}
+.reward img{
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.mind-travel{
+    display: flex;
+}
+.photo{
+    flex: 1;
+}
+.photo img{
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.text-travel{
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.text-travel button{
+    padding: 10px 20px 10px 20px;
+    background-color: #a0072a;
+    color: #fff;
+    font-weight: bold;
+}
+.everyday{
+    display: flex;
+    margin-top: 60px;
+}
+.text-2{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.text-2 button{
+    padding: 10px 20px 10px 20px;
+    background-color: #a0072a;
+    color: #fff;
+    font-weight: bold;
+}
+.photo-2{
+    flex: 1;
+}
+.photo-2 img{
+    width: 800px;
+}
+
