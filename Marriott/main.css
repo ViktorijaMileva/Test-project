@@ -455,3 +455,22 @@ body{
     width: 800px;
 }
 
+.title h2 a{
+    text-decoration: none;
+    color: #a0072a;
+    margin-left: 100px;
+}
+.menu-down{
+    width: 1100px;
+}
+.menu-down ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+.menu-down ul li a{
+    text-decoration: none;
+    color: #a0072a;
+}
