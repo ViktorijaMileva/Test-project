@@ -41,3 +41,8 @@ body{
     font-size: 20px;
     padding: 5px;
 }
+@media(max-width: 500px){
+    body, .header, .main{
+        width: 100%;
+    }   
+}

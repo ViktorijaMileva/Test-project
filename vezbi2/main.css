@@ -85,3 +85,8 @@ ul li a{
     display: block;
     position: absolute;
 }
+@media(max-width: 500px){
+    header, body{
+        width: 100%;
+    }   
+}
