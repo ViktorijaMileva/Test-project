@@ -1,0 +1,241 @@
+*{
+    font-family: sans-serif;
+}
+.body{
+    width: 100%;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    color: #808080;
+    font-size: 13px;
+}
+.link a{
+    text-decoration: none;
+    color: #b02b2c;
+}
+.index2{
+    margin-left: 5px;
+}
+.index1{
+    margin-left: 10px;
+}
+.hr-line hr{
+    color: #e8e8e8;
+    opacity: 0.2;
+}
+.main-menu{
+    display: flex;
+}
+.logo{
+    flex: 2;
+}
+.logo img{
+    margin-left: 100px;
+}
+.menu{
+    flex: 1;
+}
+.menu ul{
+   display: inline-flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #b02b2c;
+    font-weight: bold;
+    font-size: 15px;
+}
+.all-image{
+    display: flex;
+    height: 300px;
+    margin-top: 10px;
+}
+.image2{
+    flex: 1;
+    background-image: linear-gradient(#5a5a5a, #b8b8b8);
+}
+.image2 h1{
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+}
+.image{
+    flex: 1;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.under-image{
+    background-color: #b02b2c;
+    margin-top: -20px;
+    height: 90px;
+    text-align: center;
+}
+.under-image h3{
+    color: white;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.all-icons{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.icon1{
+    flex: 1;
+    margin-right: 40px;
+}
+.icon2{
+    flex: 1;
+    margin-right: 40px;
+}
+.icon3{
+    flex: 1;
+    margin-right: 40px;
+}
+.icon4{
+    flex: 1;
+    margin-right: 40px;
+}
+.icon1 p, .icon2 p, .icon3 p, .icon4 p{
+    font-size: 13px;
+    line-height: 1.5;
+}
+.icon1 h3, .icon2 h3, .icon3 h3, .icon4 h3{
+    text-align: center;
+    color: #b02b2c;
+} 
+.icon1 i, .icon2 i, .icon3 i, .icon4 i{
+    margin-left: 130px;
+}
+.vizija{
+    background-image: url(img/people1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.text{
+    text-align: left;
+    margin-left: 800px;
+    margin-right: 50px;
+    margin-top: 30px;
+    z-index: 1;
+}
+.text p{
+    font-size: 13px;
+}
+.text h1{
+    color: #b02b2c;
+}
+.text h5{
+    color: #b02b2c;
+}
+.bolder{
+    color: #b02b2c;
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.title h1{
+    color: #b02b2c;
+    font-weight: 300;
+}
+.paragraf{
+    text-align: center;
+}
+.paragraf p{
+    font-size: 13px;
+}
+.all-class{
+    display: flex;
+    margin-top: 30px;
+}
+.geneva{
+    flex: 1;
+}
+.geneva img{
+    width: 300px;
+    height: 150px;
+}
+.news{
+    flex: 1;
+}
+.news img{
+    width: 300px;
+    height: 150px;
+}
+.management{
+    flex: 1;
+}
+.management img{
+    width: 300px;
+    height: 150px;
+}
+.publications{
+    flex: 1;
+}
+.publications img{
+    width: 300px;
+    height: 150px;
+}
+.geneva h5, .news h5, .management h5, .publications h5{
+    margin-left: 15px;
+    color: #b02b2c;
+}
+.paragraf2{
+   text-align: center; 
+    margin-top: 30px;
+}
+.paragraf2 p{
+    font-size: 13px;
+    color: #b02b2c;
+    font-weight: bold;
+}
+.buttons{
+    text-align: center;
+}
+.button1{
+    padding: 13px 30px 13px 30px;
+    color: white;
+    background-color: #b02b2c;
+}
+.button2{
+    padding: 13px 30px 13px 30px;
+    color: white;
+    background-color: #eb3b3b;
+}
+.all-img{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img1{
+    flex: 1;
+}
+.img2{
+    flex: 1;
+}
+.img3{
+    flex: 1;
+}
+.img4{
+    flex: 1;
+}
+.img5{
+    flex: 1;
+}
+.img6{
+    flex: 1;
+}
+.div-img{
+    background-image: url(img/people1.jpg);
+    height: 200px;
+}
