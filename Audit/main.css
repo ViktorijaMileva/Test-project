@@ -125,7 +125,7 @@
     margin-left: 800px;
     margin-right: 50px;
     margin-top: 30px;
-    z-index: 1;
+    
 }
 .text p{
     font-size: 13px;
@@ -303,27 +303,9 @@
     font-size: 11px;
     color: #dddddd;
 }
-@media only screen and(min-width: 500px){
-    header{
-        width: 100%;
-    }
-    body{
-        width: 100%;
-    }
+@media(max-width: 500px){
     .icon1{
-        height: 40%;
         width: 30%;
-    }
-    .icon2{
-        height: 40%;
-        width: 30%;
-    }
-    .icon3{
-        height: 40%;
-        width: 30%;
-    }
-    .icon4{
-        height: 40%;
-        width: 30%;
+        height: 50%;
     }
 }
