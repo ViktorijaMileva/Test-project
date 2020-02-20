@@ -1,6 +1,12 @@
 *{
     font-family: sans-serif;
 }
+.clearfix{
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+}
 .body{
     width: 100%;
 }
@@ -118,14 +124,10 @@
     background-image: url(img/people1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
 }
 .text{
-    text-align: left;
-    margin-left: 800px;
-    margin-right: 50px;
-    margin-top: 30px;
-    
+    float: right;
+    width: 50%;
 }
 .text p{
     font-size: 13px;
@@ -307,5 +309,5 @@
     .icon1{
         width: 30%;
         height: 50%;
-    }
+    } 
 }
