@@ -239,3 +239,91 @@
     background-image: url(img/people1.jpg);
     height: 200px;
 }
+.div-img{
+    display: flex;
+}
+.text2{
+    flex: 1;
+    text-align: center;
+    margin-top: 50px;
+}
+.text2 h3, .text2 h1{
+    font-weight: 400;
+}
+.form{
+    flex: 1;
+}
+.form button{
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #b02b2c;
+}
+.form input{
+    width: 50%;
+    padding: 12px 20px;
+    margin-top: 80px;
+}
+.all-footer{
+    display: flex;
+    background-color: #222222;
+}
+.logo-footer{
+    flex: 1;
+    text-align: center;
+    margin-top: 60px;
+}
+.for-us{
+    flex: 1;
+    margin-top: 60px;
+    margin-right: 70px;
+    color: #dddddd;
+}
+.contact{
+    flex: 1;
+    margin-top: 60px;
+    margin-right: 70px;
+    color: #dddddd;
+}
+.for-us p{
+    font-size: 13px;
+}
+.ppp{
+    font-size: 13px;
+}
+.for-us h5, .contact h5{
+    color: #919191;
+}
+.end{
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+.end p{
+    font-size: 11px;
+    color: #dddddd;
+}
+@media only screen and(min-width: 500px){
+    header{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    .icon1{
+        height: 40%;
+        width: 30%;
+    }
+    .icon2{
+        height: 40%;
+        width: 30%;
+    }
+    .icon3{
+        height: 40%;
+        width: 30%;
+    }
+    .icon4{
+        height: 40%;
+        width: 30%;
+    }
+}
