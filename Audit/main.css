@@ -159,6 +159,7 @@
 .all-class{
     display: flex;
     margin-top: 30px;
+    width: 80%;
 }
 .geneva{
     flex: 1;
@@ -309,5 +310,21 @@
     .icon1{
         width: 30%;
         height: 50%;
-    } 
+    }
+    .icon2{
+        width: 30%;
+        height: 50%;
+    }
+    .icon3{
+        width: 30%;
+        height: 50%
+    }
+    .icon4{
+        width: 30%;
+        height: 50%;
+    }
+    .for-us{
+        width: 30%;
+        height: 60%;
+    }
 }
